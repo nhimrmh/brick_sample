@@ -70,3 +70,10 @@ mason make create_dir -o lib/ui/pages
 |State|ViewModel|Navigator|
 |---|---|---|
 |<img src = "https://github.com/user-attachments/assets/e8d87926-2780-4732-8673-117e458f05aa" width = 250/>|<img src = "https://github.com/user-attachments/assets/95305118-5998-4a3e-b1fa-ecadb44be9d0" width = 250/>|<img src = "https://github.com/user-attachments/assets/aaa76cc3-37fa-4140-a7c9-160b773467d4" width = 250/>|
+
+5. Last but not least, exclude the brick directory from dart analysis
+```bash
+analyzer:
+  exclude:
+    - bricks/**
+```
