@@ -18,6 +18,9 @@ samples, guidance on mobile development, and a full API reference.
 ## Project settings
 1. Add `bricks` directory to project folder
 2. Add `mason.yaml` and update the brick name corresponding to your custom template name
+> The content of mason.yaml should have the format of this
+> <img width="286" alt="Screenshot 2025-02-13 at 01 57 32" src="https://github.com/user-attachments/assets/ce115c5c-605a-4340-953d-ab596e638259" />
+
 3. Update the brick templates as your wish
 
 ## Generate new page code with default template
@@ -25,7 +28,7 @@ samples, guidance on mobile development, and a full API reference.
 ```bash
 dart pub global activate mason_cli
 ```
-> (*) If seeing `command not found: mason` -> run below command
+> If seeing `command not found: mason` -> run below command
 ```bash
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 ```
@@ -48,3 +51,11 @@ mason make {brick_name} -o {destination}
 ```bash
 mason make create_dir -o lib/ui/pages  
 ```
+
+> Result
+> <img width="594" alt="Screenshot 2025-02-13 at 01 53 53" src="https://github.com/user-attachments/assets/fb3c53ca-c840-4e8a-bfd4-d9efa62b7a29" />
+
+**Generated file content**
+|State|ViewModel|Navigator|
+|---|---|---|
+|<img src = "https://github.com/user-attachments/assets/e8d87926-2780-4732-8673-117e458f05aa" width = 250/>|<img src = "https://github.com/user-attachments/assets/95305118-5998-4a3e-b1fa-ecadb44be9d0" width = 250/>|<img src = "https://github.com/user-attachments/assets/aaa76cc3-37fa-4140-a7c9-160b773467d4" width = 250/>|
