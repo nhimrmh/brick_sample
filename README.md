@@ -1,6 +1,6 @@
-# dms
+# Brick Sample
 
-DMS project
+Brick Sample project
 
 ## Getting Started
 
