@@ -17,12 +17,21 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Project settings
 1. Add `bricks` directory to project folder
+> Bricks directory structure
+>
+> <img width="449" alt="Screenshot 2025-02-13 at 02 06 10" src="https://github.com/user-attachments/assets/e30cf624-85cb-4343-ad13-c97f17631745" />
+ 
 2. Add `mason.yaml` and update the brick name corresponding to your custom template name
 > The content of mason.yaml should have the format of this
 > 
 > <img width="286" alt="Screenshot 2025-02-13 at 01 57 32" src="https://github.com/user-attachments/assets/ce115c5c-605a-4340-953d-ab596e638259" />
 
 3. Update the brick templates as your wish
+> Ref:
+> - Installing Mason cli: https://docs.brickhub.dev/installing
+> - Brick lamdas: https://docs.brickhub.dev/brick-syntax#built-in-lambdas
+> - Brick syntax: https://docs.brickhub.dev/brick-syntax
+> - Using Brick: https://docs.brickhub.dev/mason-make
 
 ## Generate new page code with default template
 1. Activate mason cli
