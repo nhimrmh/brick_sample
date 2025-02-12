@@ -19,6 +19,7 @@ samples, guidance on mobile development, and a full API reference.
 1. Add `bricks` directory to project folder
 2. Add `mason.yaml` and update the brick name corresponding to your custom template name
 > The content of mason.yaml should have the format of this
+> 
 > <img width="286" alt="Screenshot 2025-02-13 at 01 57 32" src="https://github.com/user-attachments/assets/ce115c5c-605a-4340-953d-ab596e638259" />
 
 3. Update the brick templates as your wish
@@ -53,6 +54,7 @@ mason make create_dir -o lib/ui/pages
 ```
 
 > Result
+> 
 > <img width="594" alt="Screenshot 2025-02-13 at 01 53 53" src="https://github.com/user-attachments/assets/fb3c53ca-c840-4e8a-bfd4-d9efa62b7a29" />
 
 **Generated file content**
