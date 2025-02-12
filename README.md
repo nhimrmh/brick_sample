@@ -39,6 +39,7 @@ samples, guidance on mobile development, and a full API reference.
 dart pub global activate mason_cli
 ```
 > If seeing `command not found: mason` error -> run below command
+> 
 > `export PATH="$PATH":"$HOME/.pub-cache/bin"`
 
 2. Register all the bricks from the nearest `mason.yaml`
